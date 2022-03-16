@@ -12,6 +12,7 @@ body {
 header {
     padding: 20px 35px;
     background-color: #C2FCF6;
+    
 }
 
 header h1 {
@@ -43,4 +44,119 @@ header nav ul li a {
     margin: 0 30px;
     font-weight: lighter;
     font-size: 22px;
+}
+
+section{
+    padding: 60px;
+}
+
+.section-title {
+    font-size: 55px;
+    color: #000000;
+    margin-bottom: 35px;
+    padding: 0 100px 20px 100px;
+    border-bottom: 3px solid;
+    display: inline-block;
+}
+
+.form {
+  background-image: url("../images/122974905_638450346851058_1523621278983638209_n.jpg");
+  height: 600px;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  
+}
+
+.travel-form {
+    border: solid 3px #000000;
+    background-color: #C2FCF6;
+    padding: 0px;
+   height: auto;
+    width: 500px;
+    color: #000000;
+    position: absolute;
+    bottom: 0px;
+    right: 140px;
+    
+}
+
+ .travel-form h3 {
+    font-size: 24px;
+    margin: 0;
+
+}
+
+.travel-form p {
+    margin: 5px 0 15px 0;
+}
+
+.form-input {
+    border: 1px solid #024e76;
+    display: block;
+    padding: 7px 15px;
+    font-size: 16px;
+    color: #024e76;
+    width: 100%;
+    margin-bottom: 15px;
+}
+
+.travel-form label {
+    margin: 0 5px;
+}
+
+.travel-form button {
+    color: #C2FCF6;
+    background-color: #024e76;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+
+}
+
+.agents {
+    text-align: center;
+}
+
+.agent {
+    width: 900px;
+    margin: 0 auto 30px auto;
+    background: #C2FCF6;
+    color: #000000;
+    overflow: auto;
+}
+
+.agent img {
+    width: 35%;
+    float: left;
+}
+
+.agent-bio {
+    padding: 35px;
+    float: left;
+    width: 65%;
+}
+
+.text-left {
+    text-align: left;
+}
+
+.text-right {
+    text-align: right;
+}
+
+.agent-bio h3 {
+    font-size: 32px;
+    margin-bottom: 8px;
+}
+
+.agent-bio h4 {
+    font-weight: lighter;
+    font-size: 26px;
+    margin-bottom: 25px;
+}
+
+.agent-bio p {
+    font-size: 17px;
+    line-height: 1.3;
 }
