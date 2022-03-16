@@ -1,0 +1,46 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    color: #C2FCF6;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+    padding: 20px 35px;
+    background-color: #C2FCF6;
+}
+
+header h1 {
+    font-weight: bold;
+    font-size: 54px;
+    font-family: cursive;
+    color: black;
+    margin: 0;
+    display: inline-block;
+    
+}
+
+header a {
+    text-decoration: none;
+    color: black;
+    
+}
+
+header nav {
+    float: right;
+    margin: 0;
+}
+
+header nav ul li{
+    display: inline;
+}
+
+header nav ul li a {
+    margin: 0 30px;
+    font-weight: lighter;
+    font-size: 22px;
+}
